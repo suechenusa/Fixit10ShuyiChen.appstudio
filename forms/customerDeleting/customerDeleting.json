@@ -9,14 +9,42 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerDeleting", 
+        "Elements", 
+        "txtNameD.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerDeleting", 
+        "Elements", 
+        "IptNameD.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerDeleting", 
+        "Elements", 
+        "btDelete.json"
+      ]
+    }
+  ], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form1", 
+  "id": "customerDeleting", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -24,7 +52,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "customerDeleting.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
