@@ -36,6 +36,15 @@
         "Elements", 
         "btDelete.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerDeleting", 
+        "Elements", 
+        "BackD.json"
+      ]
     }
   ], 
   "class": "", 

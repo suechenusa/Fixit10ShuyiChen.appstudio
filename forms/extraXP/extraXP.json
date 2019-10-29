@@ -14,45 +14,27 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "customerUpdating", 
+        "extraXP", 
         "Elements", 
-        "txtNameU.json"
+        "txtResults1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "customerUpdating", 
+        "extraXP", 
         "Elements", 
-        "IptNameU.json"
+        "DdState.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "customerUpdating", 
+        "extraXP", 
         "Elements", 
-        "btUpdate.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "customerUpdating", 
-        "Elements", 
-        "IptNameU2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "customerUpdating", 
-        "Elements", 
-        "BackU.json"
+        "BackX.json"
       ]
     }
   ], 
@@ -62,7 +44,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "customerUpdating", 
+  "id": "extraXP", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -70,7 +52,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "customerUpdating.onshow()", 
+  "onshow": "extraXP.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
