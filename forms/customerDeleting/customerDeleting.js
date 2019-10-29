@@ -72,3 +72,7 @@ btDelete.onclick=function(){
 
 
 
+
+BackD.onclick=function(){
+  ChangeForm(Homepage)
+}

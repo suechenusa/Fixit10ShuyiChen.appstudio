@@ -18,6 +18,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "Homepage", 
+            "Homepage.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "customerSelect", 
             "customerSelect.json"
           ]
@@ -45,6 +53,14 @@
             "customerUpdating", 
             "customerUpdating.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "extraXP", 
+            "extraXP.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -59,7 +75,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "customerUpdating", 
+      "firstform": "Homepage", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

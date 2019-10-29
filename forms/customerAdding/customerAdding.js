@@ -23,7 +23,7 @@ customerAdding.onshow=function(){
 
 btNameA.onclick=function(){
     
-    let query = "INSERT INTO customer (name,street,city,state,zipcode) VALUES ('Sue Antiques', '1113 F St', 'Omaha', 'NE', 68178)"
+    let query = "INSERT INTO customer (name,street,city,state,zipcode) VALUES ('Jessca Antiques', '1113 F St', 'Omaha', 'NE', 68178)"
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=sch54620&pass=C19971106w&database=sch54620&query=" + query)
 
     if (req1.status == 200) { //transit worked.
@@ -48,10 +48,14 @@ btNameA.onclick=function(){
             }
             NSB.MsgBox("You have successfully added the pet!")
         } else{
-            NSB.MsgBox("There was a problem with adding the pet to the database.")
+            NSB.MsgBox("There was a problem with adding the name to the database.")
         }
     } else {
         // transit error
         NSB.MsgBox("Error: " + req1.status)
     }  
+}
+
+BackA.onclick=function(){
+  ChangeForm(Homepage)
 }

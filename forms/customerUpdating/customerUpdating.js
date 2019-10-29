@@ -110,3 +110,7 @@ btUpdate.onclick=function(){
         NSB.MsgBox("Error: " + req1.status)
     }  
 }
+
+BackU.onclick=function(){
+  ChangeForm(Homepage)
+}

@@ -14,45 +14,45 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "customerUpdating", 
+        "Homepage", 
         "Elements", 
-        "txtNameU.json"
+        "CustomerSelect.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "customerUpdating", 
+        "Homepage", 
         "Elements", 
-        "IptNameU.json"
+        "CustomerDeleting.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "customerUpdating", 
+        "Homepage", 
         "Elements", 
-        "btUpdate.json"
+        "CustomerAdding.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "customerUpdating", 
+        "Homepage", 
         "Elements", 
-        "IptNameU2.json"
+        "CustomerUpdating.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "customerUpdating", 
+        "Homepage", 
         "Elements", 
-        "BackU.json"
+        "Button1.json"
       ]
     }
   ], 
@@ -62,7 +62,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "customerUpdating", 
+  "id": "Homepage", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -70,7 +70,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "customerUpdating.onshow()", 
+  "onshow": "", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
